@@ -17,8 +17,8 @@ npm manifest:
   {
     "name": "generator-tc-react",
     "version": "0.0.1",
-    "description": "Generator for TricomB2B's React hybrid app platform",
-    "homepage": "https://github.com/TricomB2B/ng-boilerplate",
+    "description": "Generator for TricomB2B's React projects",
+    "homepage": "https://github.com/TricomB2B/generator-tc-react",
     "author": {
       "name": "TricomB2B",
       "email": "interactive@tricomb2b.com",
@@ -51,6 +51,7 @@ npm manifest:
       "js-beautify": "^1.6.8",
       "lodash": "^4.17.4",
       "mkdirp": "^0.5.1",
+      "npm": "^6.4.0",
       "sass-ast": "^0.0.2",
       "yeoman-generator": "^1.0.0",
       "yosay": "^1.0.0"
@@ -76,12 +77,11 @@ npm manifest:
         "mocha": true
       }
     },
-    "repository": "TricomB2B/generator-tricom",
+    "repository": "https://github.com/TricomB2B/generator-tc-react",
     "scripts": {
-      "prepublish": "gulp prepublish",
-      "test": "gulp"
+      "prepublish": "gulp prepublish"
     },
-    "license": "SEE LICENSE IN LICENSE"
+    "license": "UNLICENSE"
   }
 
 yarn manifest: 
