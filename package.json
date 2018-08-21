@@ -1,0 +1,69 @@
+{
+  "name": "generator-tc-react",
+  "version": "0.0.1",
+  "description": "Generator for TricomB2B's React projects",
+  "homepage": "https://github.com/TricomB2B/generator-tc-react",
+  "author": {
+    "name": "TricomB2B",
+    "email": "interactive@tricomb2b.com",
+    "url": "http://www.tricomb2b.com"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.22.1",
+    "babel-generator": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-traverse": "^6.22.1",
+    "babylon": "^6.15.0",
+    "babylon-walk": "^1.0.2",
+    "chalk": "^1.0.0",
+    "change-case": "^3.0.0",
+    "download-git-repo": "^0.2.1",
+    "escodegen": "^1.8.1",
+    "esprima": "^3.1.3",
+    "estools": "^2.2.0",
+    "estree-walker": "^0.3.0",
+    "fs": "0.0.1-security",
+    "fs-promise": "^1.0.0",
+    "js-beautify": "^1.6.8",
+    "lodash": "^4.17.4",
+    "mkdirp": "^0.5.1",
+    "npm": "^6.4.0",
+    "sass-ast": "^0.0.2",
+    "yeoman-generator": "^1.0.0",
+    "yosay": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-xo-space": "^0.14.0",
+    "gulp": "^3.9.0",
+    "gulp-coveralls": "^0.1.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-mocha": "^2.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-plumber": "^1.0.0",
+    "yeoman-assert": "^2.0.0",
+    "yeoman-test": "^1.0.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "https://github.com/TricomB2B/generator-tc-react",
+  "scripts": {
+    "prepublish": "gulp prepublish"
+  },
+  "license": "UNLICENSE"
+}
