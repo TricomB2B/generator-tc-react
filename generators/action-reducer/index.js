@@ -48,13 +48,13 @@ module.exports = class extends Generator {
 
     this.fs.copyTpl(
       this.templatePath(`reducer${config['flow'] ? '.flow' : ''}.js`),
-      this.destinationPath(`${this.config.get('srcdir')}/reducers/${name}.js`),
+      this.destinationPath(`${this.config.get('srcdir')}/reducers/${name.toLowerCase()}.js`),
       templateProps
     );
 
     this.fs.copyTpl(
       this.templatePath(`action${config['flow'] ? '.flow' : ''}.js`),
-      this.destinationPath(`${this.config.get('srcdir')}/action/${name}.js`),
+      this.destinationPath(`${this.config.get('srcdir')}/actions/${name.toLowerCase()}.js`),
       templateProps
     );
 

@@ -5,7 +5,7 @@ const defaultState = {
 /**
  * <%= titleCase %> Reducer
  * <%= description %>
- * @author <%= name %> <<%= email %>>
+ * @author <%= user_name %> <<%= email %>>
  */
 
 const <%= camelCase %> = (state = defaultState, action) => {

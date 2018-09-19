@@ -3,7 +3,7 @@
 /**
  * <%= titleCase %> Actions
  * <%= description %>
- * @author <%= name %> <<%= email %>>
+ * @author <%= user_name %> <<%= email %>>
  */
 
 // ============================

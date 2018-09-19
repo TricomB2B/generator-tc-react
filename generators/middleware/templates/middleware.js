@@ -1,7 +1,7 @@
 /**
  * <%= titleCase %> Middleware
  * <%= description %>
- * @author <%= name %> <<%= email %>>
+ * @author <%= user_name %> <<%= email %>>
  */
 
 const <%= camelCase %> = store => next => action => {

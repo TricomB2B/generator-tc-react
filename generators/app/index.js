@@ -61,7 +61,7 @@ module.exports = class extends Generator {
       default: 'camelcase'
     }, {
       type: 'input',
-      name: 'name',
+      name: 'user_name',
       message: 'What is your full name?'
     }, {
       type: 'input',

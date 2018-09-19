@@ -19,7 +19,7 @@ type Props = {
 /**
  * <%= camelCase %> Component
  * <%= description %>
- * @author <%= name %> <<%= email %>>
+ * @author <%= user_name %> <<%= email %>>
  */
 
 class <%= camelCase %> extends Component <Props> {

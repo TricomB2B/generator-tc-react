@@ -9,7 +9,7 @@ import { withRouter } from 'react-router-dom';
 /**
  * <%= camelCase %> Container
  * <%= description %>
- * @author <%= name %> <<%= email %>>
+ * @author <%= user_name %> <<%= email %>>
  */
 
 class <%=camelCase%> extends Component {

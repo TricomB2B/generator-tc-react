@@ -5,7 +5,7 @@ import * as DO from '@actions/<%= lowerCase %>';
 /**
  * <%= titleCase %> Reducer
  * <%= description %>
- * @author <%= name %> <<%= email %>>
+ * @author <%= user_name %> <<%= email %>>
  */
 
 export type <%= camelCase %>State = {

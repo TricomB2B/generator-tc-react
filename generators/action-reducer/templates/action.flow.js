@@ -5,7 +5,7 @@ import type { <%= camelCase %>Action } from '@reducers/<%= lowerCase %>';
 /**
  * <%= titleCase %> Actions
  * <%= description %>
- * @author <%= name %> <<%= email %>>
+ * @author <%= user_name %> <<%= email %>>
  */
 
 // ============================

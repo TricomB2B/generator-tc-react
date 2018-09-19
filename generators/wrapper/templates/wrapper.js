@@ -3,7 +3,7 @@ import React from 'react';
 /**
  * <%= titleCase %> HOC
  * <%= description %>
- * @author <%= name %> <<%= email %>>
+ * @author <%= user_name %> <<%= email %>>
  */
 
 const <%= camelCase %> = (WrappedComponent, wrapperData) => {
