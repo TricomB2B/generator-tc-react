@@ -29,7 +29,7 @@ class <%= camelCase %> extends Component <Props> {
   }
   render() {
     return (
-      <div className="<%= kebabCase %>">My Cool Component!</div>
+      <div className={`<%= className %>`}>My Cool Component!</div>
     );
   }
 }
